@@ -1,7 +1,5 @@
 #grid-container {
-   
     display: grid;
-
     width: 700px;
     height: 700px;
     margin: 2rem;
@@ -11,21 +9,20 @@
    position: absolute;
     top : 40px;
     right: 50px;
+    color: red
   }
   
-  
+  #grid-btn2 {
+    position: absolute;
+     top : 100px;
+     right: 50px;
+     background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    }
   .grid-item {
     border: 1px solid rgba(0, 0, 0, 0.8);
-    
-  
   }
  
- 
- 
- 
- 
   body {
-
     background: gray
   }
   
